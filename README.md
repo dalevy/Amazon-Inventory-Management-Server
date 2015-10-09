@@ -1,0 +1,2 @@
+# Amazon-Inventory-Management-Server
+"RiverBoat Server" is an Amazon Marketplace Web Service (Amazon MWS) inventory management application. The server accesses a list of customers from a remote database and then uses their Amazon MWS credentials to make calls to the Amazon API - synchronizing their seller inventory. This project is an example of my early attempts and programming during my sophomore year. Feel free to use as  you see fit.
