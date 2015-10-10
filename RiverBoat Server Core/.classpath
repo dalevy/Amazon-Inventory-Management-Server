@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/activation.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.2.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="libs/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/MWSClientJavaRuntime-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/MWSSellers_2011-07-01_v2014-09-30.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.28-bin.jar"/>
+	<classpathentry kind="lib" path="libs/opencsv-2.3.jar"/>
+	<classpathentry kind="lib" path="libs/org.apache.httpcomponents.httpclient_4.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/sax2r2.jar"/>
+	<classpathentry kind="lib" path="libs/schudt-javafx-datepicker-0.0.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

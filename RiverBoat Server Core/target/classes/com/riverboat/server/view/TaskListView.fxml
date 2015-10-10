@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1154.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.riverboat.server.controller.TaskListController">
+   <children>
+      <TableView fx:id="taskTable" layoutX="14.0" layoutY="21.0" prefHeight="548.0" prefWidth="1126.0">
+        <columns>
+          <TableColumn fx:id="task" prefWidth="123.0" text="Task" />
+          <TableColumn fx:id="account" prefWidth="127.0" text="Account" />
+            <TableColumn fx:id="platform" minWidth="5.0" prefWidth="138.0" text="Platform" />
+            <TableColumn fx:id="type" prefWidth="237.0" text="Type" />
+            <TableColumn fx:id="id" minWidth="1.0" prefWidth="251.0" text="Id" />
+            <TableColumn fx:id="time" prefWidth="250.0" text="time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

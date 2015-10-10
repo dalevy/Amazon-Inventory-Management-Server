@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1154.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.riverboat.server.controller.ManualUpdateController">
+  <children>
+    <TextField fx:id="accountTextBox" layoutX="50.0" layoutY="49.0" prefWidth="200.0" text="Enter Account Number" />
+    <Button fx:id="updateButton" layoutX="468.0" layoutY="51.0" mnemonicParsing="false" onAction="#update" text="Update" />
+    <Text layoutX="64.0" layoutY="187.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCOUNT:">
+      <font>
+        <Font size="10.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Text font="$x1" layoutX="66.0" layoutY="218.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="COMPANY:" />
+    <Text font="$x1" layoutX="60.0" layoutY="251.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="PHONE:" />
+    <Text font="$x1" layoutX="63.0" layoutY="283.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDRESS:" />
+    <Text font="$x1" layoutX="57.0" layoutY="316.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="FIRST:" />
+    <Text font="$x1" layoutX="60.0" layoutY="349.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST:" />
+    <Text fx:id="account" font="$x1" layoutX="221.0" layoutY="187.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+    <Text fx:id="company" font="$x1" layoutX="222.0" layoutY="218.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+    <Text fx:id="phone" font="$x1" layoutX="222.0" layoutY="251.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+    <Text fx:id="address" font="$x1" layoutX="220.0" layoutY="272.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+    <Text fx:id="first" font="$x1" layoutX="221.0" layoutY="311.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+    <Text fx:id="last" font="$x1" layoutX="225.0" layoutY="354.0" scaleX="1.643591470258137" scaleY="1.8169372589103578" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+    <Button fx:id="searchButton" layoutX="312.0" layoutY="51.0" mnemonicParsing="false" onAction="#search" text="Search" />
+    <Text layoutX="453.0" layoutY="139.0" scaleX="1.538451426317865" scaleY="1.9397944199706314" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+  </children>
+</AnchorPane>
